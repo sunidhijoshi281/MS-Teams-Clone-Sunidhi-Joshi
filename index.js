@@ -11,7 +11,7 @@ let server = app.listen(process.env.PORT || 2000 , function () {
 
 app.use(express.static("public"));
 
-let io = socket(server);
+let io = socketIO(server);
 
 io.on("connection", function (socket) {
   console.log("User Connected :" + socket.id);
