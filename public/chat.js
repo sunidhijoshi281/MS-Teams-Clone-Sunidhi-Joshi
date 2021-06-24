@@ -1,4 +1,4 @@
-let socket = io.connect("http://localhost:2000");
+let socket = io.connect("https://video-chat-app-sunidhi.herokuapp.com/");
 let uservid = document.getElementById("user-video");
 let peervid = document.getElementById("peer-video");
 let joinBtn = document.getElementById("join");
