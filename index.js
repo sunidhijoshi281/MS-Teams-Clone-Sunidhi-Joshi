@@ -1,9 +1,7 @@
 const express = require("express");
 const app = express();
 const socket = require("socket.io");
-const cors = require('cors');
 
-app.use(cors());
 
 let server = app.listen(process.env.PORT || 2000 , function () {
   console.log("Server Running");
