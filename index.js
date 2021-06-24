@@ -5,7 +5,7 @@ const cors = require('cors');
 
 app.use(cors());
 
-let server = app.listen(process.env.PORT , function () {
+let server = app.listen(process.env.PORT || 2000 , function () {
   console.log("Server Running");
 });
 
