@@ -10,6 +10,13 @@ app.use(express.static("public"));
 
 let io = socketIO(server);
 
+io.on("connection",function(socket){
+  socket.on("sendMsg",function(data){
+      io.emit("broadcastMsg",data);
+  });
+  console.log("Websocket connected",socket.id)
+});
+
 io.on("connection", function (socket) {
   console.log("User Connected :" + socket.id);
 

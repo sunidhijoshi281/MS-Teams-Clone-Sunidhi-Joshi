@@ -1,12 +1,27 @@
 let socket = io.connect("https://video-chat-app-sunidhi.herokuapp.com/");
+var username = document.getElementById("username");
+var message = document.getElementById("message");
 let uservid = document.getElementById("user-video");
 let peervid = document.getElementById("peer-video");
 let joinBtn = document.getElementById("join");
+var chatbtn = document.getElementById("send");
 let roomInput = document.getElementById("roomName");
+var output = document.getElementById("op");
 let rtcPeerConnection;
 let roomName;
 let roomowner = false;
 let userStream;
+
+chatbtn.addEventListener('click',function(){
+socket.emit('sendMsg',{
+    message : message.value, 
+    username : username.value,
+    });
+});
+
+socket.on("broadcastMsg",function(data){
+    output.innerText+= "" + data.username + ":" + data.message + "" + '\n'; 
+});
 
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 
