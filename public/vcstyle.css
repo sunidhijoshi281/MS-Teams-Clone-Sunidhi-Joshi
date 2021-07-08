@@ -49,20 +49,7 @@
     color: #555;
   }
   
-  #feedback p {
-    color: white;
-    padding: 14px 0px;
-    margin: 0 20px;
-  }
-  
   #op strong {
     color: #000000;
   }
-  
-  label {
-    box-sizing: border-box;
-    display: block;
-    padding: 10px 20px;
-  }
-  
   
