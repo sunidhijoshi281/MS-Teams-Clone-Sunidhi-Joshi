@@ -13,10 +13,10 @@ Explore the various technolgies and APIs available to build a video conferencing
 ## Week2 (Build):
 Work on frontend of the application.\
 Set up the server side code.\
-Use APIs to stream in audio and video, connect peers.\
+Use APIs to stream in audio and video, connect peers.
 
 ## Week3 (Adapt):
-Implemented a basic chat feature to enable text based communication.\
+Implemented a basic chat feature to enable text based communication.
 
 ## **Deployment**
 Run the project here:
