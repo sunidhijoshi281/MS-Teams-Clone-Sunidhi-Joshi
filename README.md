@@ -1,6 +1,6 @@
 # GoMeet
 ## **About**
-This project was developed under Microsoft Engagement and Mentorship Program 2021.
+This project was developed under Microsoft Engagement and Mentorship Program 2021.\
 Two people when enter the same room name are able to connect with each other for a video conversation.
 A chat box on the side also allows them to communicate via text.
 ## **Tech Stack**
