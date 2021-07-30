@@ -1,10 +1,14 @@
 # MS Teams Clone
 ## **About**
 This project was developed under **Microsoft Engagement and Mentorship Program 2021**.\
-Two people when enter the same room name are able to connect with each other for a video conversation.\
-A chat box on the side also allows them to communicate via text.
+The challenge was to build a Microsoft Teams Clone. It should be a fully functional prototype with at least one mandatory functionality - a minimum of two participants should be able connect with each other using your product to have a video conversation. 
+For more info on the program, checkout [Microsoft Engage'21](https://microsoft.acehacker.com/engage2021/?mc_cid=51cf8705a5&mc_eid=7ff463e0e6)
 ## **Tech Stack**
-NodeJs, Express, WebRTC, Socket.io
+NodeJs 
+Express, to serve our static files like HTML. \
+WebRTC, to allow media devices (camera and microphone) to stream audio and video between connected devices. \
+Socket.io, to establish a bi-directional communication between two devices.\
+
 ## **Development Methodology**
 ## Week1 (Design):
 Learn how real time communication takes place.\
