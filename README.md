@@ -4,7 +4,7 @@ This project was developed under **Microsoft Engagement and Mentorship Program 2
 The challenge was to build a Microsoft Teams Clone. It should be a fully functional prototype with at least one mandatory functionality - a minimum of two participants should be able connect with each other using your product to have a video conversation. 
 For more info on the program, checkout [Microsoft Engage'21](https://microsoft.acehacker.com/engage2021/?mc_cid=51cf8705a5&mc_eid=7ff463e0e6)
 ## **Tech Stack**
-NodeJs 
+NodeJs \
 Express, to serve our static files like HTML. \
 WebRTC, to allow media devices (camera and microphone) to stream audio and video between connected devices. \
 Socket.io, to establish a bi-directional communication between two devices.\
