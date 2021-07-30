@@ -7,7 +7,7 @@ For more info on the program, checkout [Microsoft Engage'21](https://microsoft.a
 NodeJs \
 Express, to serve our static files like HTML. \
 WebRTC, to allow media devices (camera and microphone) to stream audio and video between connected devices. \
-Socket.io, to establish a bi-directional communication between two devices.\
+Socket.io, to establish a bi-directional communication between two devices.
 
 ## **Development Methodology**
 ## Week1 (Design):
