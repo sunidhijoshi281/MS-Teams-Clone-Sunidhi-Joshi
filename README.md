@@ -1,4 +1,4 @@
-# GoMeet
+# MS Teams Clone
 ## **About**
 This project was developed under **Microsoft Engagement and Mentorship Program 2021**.\
 Two people when enter the same room name are able to connect with each other for a video conversation.\
