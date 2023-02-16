@@ -21,7 +21,3 @@ Use APIs to stream in audio and video, connect peers.
 
 ## Week3 (Adapt):
 Implemented a basic chat feature to enable text based communication.
-
-## **Deployment**
-Run the project here:
-https://video-chat-app-sunidhi.herokuapp.com/
